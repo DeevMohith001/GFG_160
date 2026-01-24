@@ -19,3 +19,11 @@ public class q02_moveZeros_toEnd {
         }
     }
 }
+/*
+nz increases only when?
+ONLY when we place a non-zero
+Not when we see zero.
+
+Because:
+nz = “how many non-zeros we have placed so far”
+ */
