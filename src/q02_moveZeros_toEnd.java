@@ -1,10 +1,10 @@
+import java.util.Arrays;
+
 public class q02_moveZeros_toEnd {
     public static void main(String[] args) {
         int[] arr = {0, 10, 22, 0, 8, 0, 5};
         moveZerosToEnd(arr);
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
+        System.out.println(Arrays.toString(arr));
     }
 
     static void moveZerosToEnd(int[] arr){
